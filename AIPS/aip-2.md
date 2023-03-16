@@ -1,5 +1,5 @@
 ---
-eip: 2
+aip: 2
 title: On-chain application statuses
 status: Draft
 type: Core
