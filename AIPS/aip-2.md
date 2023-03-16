@@ -67,6 +67,25 @@ uint256 public nextApplicationIndex;
 Application[] public applications;
 ```
 
+We can also store a mapping between projectID and application indexes, so we can easily get all the applications
+for a given projectID:
+
+```
+mapping(bytes32 => uint256[]) public applicationsIndexesByProjectID;
+
+function applyToRound(bytes32 projectID, MetaPtr memory metaPtr) external {
+    applications.push(Application(projectID, nextApplicationIndex, metaPtr));
+    applicationsIndexesByProjectID[projectID].push(nextApplicationIndex);
+    emit NewProjectApplication(projectID, nextApplicationIndex, metaPtr);
+    nextApplicationIndex++;
+}
+
+function getApplicationIndexesByProjectID(bytes32 projectID) public view returns(uint256[] memory) {
+    return applicationsIndexesByProjectID[projectID];
+}
+
+```
+
 The second modification we propose is to store all application statuses in the contract.
 This will enable round operators to efficiently approve or reject multiple applications in a single transaction,
 regardless of whether there are a few or several thousand applications to process.
