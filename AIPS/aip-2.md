@@ -3,7 +3,7 @@ aip: 2
 title: On-chain application statuses
 status: Draft
 type: Core
-author: Andrea Franz <andrea@gitcoin.co>, Aditya Anand <aditya@gitcoin.co>
+author: Andrea Franz <andrea@gitcoin.co>, Aditya Anand <aditya@gitcoin.co>, Kurt Merbeth <kurt@gitcoin.co>
 created: 2023-03-15
 ---
 
