@@ -77,10 +77,10 @@ By utilizing a bit array, we can achieve more compact storage, faster computatio
 while efficiently maintaining the integrity and accuracy of the data.
 We can use 2 bits for each application status to express 4 different values:
 
-0 - pending
-1 - approved
-2 - rejected
-3 - canceled
+* 0 - pending
+* 1 - approved
+* 2 - rejected
+* 3 - canceled
 
 ### Proof of concepts and possible implementations:
 
