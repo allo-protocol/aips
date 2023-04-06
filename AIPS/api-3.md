@@ -84,8 +84,8 @@ We have explored few possibilities on how AlloSettings could be implemented
 - https://github.com/compound-finance/compound-protocol/blob/master/contracts/ComptrollerStorage.sol
 - https://fravoll.github.io/solidity-patterns/eternal_storage.html
 
-While eternal storage seems to be the smartest way to go about it. It does affect readability and for the sake of simplicity 
-We are proposing going with a naive approach and then upgrade as we see fit
+While eternal storage seems to be the smartest way to go about it, it does affect readability and for the sake of simplicity 
+we are proposing going with a naive approach and then upgrade as we see fit
 
 ## Rationale
 
