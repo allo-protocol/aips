@@ -1,6 +1,6 @@
 ---
 aip: 4
-title: Allo Settings Contract
+title: Emit ApplicationIndex on Vote
 status: Draft
 type: Core
 author: Aditya Anand <aditya@gitcoin.co>, Andrea Franz <andrea@gitcoin.co>, Jason Romero <jason@gitcoin.co>, Mo Boudra <mo@gitcoin.co>
