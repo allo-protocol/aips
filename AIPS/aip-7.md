@@ -1,27 +1,13 @@
 ---
 aip: 7
 title: Repository renaming for contracts and contract renaming
-status: Draft
+status: Idea
 type: Core
-author: @codenamejason
+author: Jason Romero <jason@gitcoin.co>
 created: 2023-05-22
 ---
 
-<!--
-READ AIP-1 (./AIPS/aip-1.md) BEFORE USING THIS TEMPLATE!
 
-This is the suggested template for new AIPs. After you have filled in the
-requisite fields, please delete these comments.
-
-Note that an AIP number will be assigned by an editor. When opening a pull
-request to submit your AIP, please use an abbreviated title in the filename,
-`eip-draft_title_abbrev.md`.
-
-The title should be 44 characters or less. It should not repeat the AIP number
-in title, irrespective of the category.
-
-TODO: Remove this comment before submitting
--->
 
 ## Abstract
 
