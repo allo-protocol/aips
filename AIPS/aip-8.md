@@ -34,19 +34,19 @@ The proposed changes to the RoundImplementation contract include:
 
 1. Removal of Variables and Functions:
 
-- matchAmount: Remove the variable representing the amount used for matching.
-- payoutStrategy: Eliminate the payout strategy from RoundImplementation.
-- token: Remove the match amount token.
-- roundFeePercentage: Eliminate the variable for the round fee percentage.
-- roundFeeAddress: Remove the variable for the round fee address.
-- updateMatchAmount(): Remove the function for updating the match amount.
-- updateRoundFeePercentage(): Eliminate the function for updating the round fee percentage.
-- updateRoundFeeAddress(): Remove the function for updating the round fee address.
-- setReadyForPayout(): Eliminate the function for indicating readiness for payout.
+- `matchAmount`: Remove the variable representing the amount used for matching.
+- `payoutStrategy`: Eliminate the payout strategy from RoundImplementation.
+- `token`: Remove the match amount token.
+- `roundFeePercentage`: Eliminate the variable for the round fee percentage.
+- `roundFeeAddress`: Remove the variable for the round fee address.
+- `updateMatchAmount()`: Remove the function for updating the match amount.
+- `updateRoundFeePercentage()`: Eliminate the function for updating the round fee percentage.
+- `updateRoundFeeAddress()`: Remove the function for updating the round fee address.
+- `setReadyForPayout()`: Eliminate the function for indicating readiness for payout.
 
 2. Integration with Voting Strategy:
 
-- Modify the voting strategy to include the matchAmount, payoutStrategy, token, roundFeePercentage, roundFeeAddress, and related functions.
+- Modify the voting strategy to include the `matchAmount`, `payoutStrategy`, `token`, `roundFeePercentage`, `roundFeeAddress`, and related functions.
 - Provide appropriate interfaces and functions in the voting strategy to handle these features, allowing users to define their desired voting and payout strategies within the voting strategy itself.
 
 3. Unified Interface:
