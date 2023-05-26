@@ -1,5 +1,5 @@
 ---
-aip: AIP-001
+aip: AIP-10
 title: Add 'virtual' keyword to init() method in payout and voting strategy interfaces
 status: Draft
 type: Core
