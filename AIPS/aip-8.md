@@ -1,9 +1,8 @@
 ---
 aip: 8
-title: RoundImplementation: Decoupling features
+title: "RoundImplementation: Decoupling features"
 status: Draft
 type: Core
-author: <a comma separated list of the author's or authors' name + GitHub username (in parenthesis), or name and email (in angle brackets).  Example, FirstName LastName (@GitHubUsername), FirstName LastName <foo@bar.com>, FirstName (@GitHubUsername) and GitHubUsername (@GitHubUsername)>
 created: 2023-05-25
 ---
 
