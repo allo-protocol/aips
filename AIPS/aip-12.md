@@ -1,5 +1,5 @@
 ---
-aip: AIP-11
+aip: AIP-12
 title: Improvements to Registry
 status: In Review
 type: Core
