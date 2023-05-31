@@ -74,7 +74,7 @@ The following goals are not included in this AIP:
 - Add the following function to the Registry contract:
 
 ```solidity
-    function updateProjectMetadata(
+    function updateProgramMetadata(
         uint256 projectID,
         MetaPtr calldata projectMetadata
     ) external onlyProjectOwner(projectID)
