@@ -76,7 +76,7 @@ The following goals are not included in this AIP:
 ```solidity
     function updateProgramMetadata(
         uint256 projectID,
-        MetaPtr calldata projectMetadata
+        MetaPtr calldata programMetadata
     ) external onlyProjectOwner(projectID)
   ```
 
