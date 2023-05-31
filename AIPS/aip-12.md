@@ -55,8 +55,6 @@ contract Registry is Initializable, AccessControlEnumerableUpgradeable {
 
 3. Replace the existing `uint256` projectIDs with `bytes32` projectIDs:
 ```solidity
-uint256 public projectsCount; // Replace with:
-uint256 public projectsCount;
 mapping(bytes32 => Project) public projects;
 ```
 
