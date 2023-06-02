@@ -3,7 +3,7 @@ aip: 8
 title: RoundImplementation: Decoupling features
 status: Draft
 type: Core
-author: <a comma separated list of the author's or authors' name + GitHub username (in parenthesis), or name and email (in angle brackets).  Example, FirstName LastName (@GitHubUsername), FirstName LastName <foo@bar.com>, FirstName (@GitHubUsername) and GitHubUsername (@GitHubUsername)>
+author: Kurt Merbeth <kurt@gitcoin.co>, Aditya Anand <aditya@gitcoin.co>
 created: 2023-05-25
 ---
 
@@ -55,42 +55,18 @@ The proposed changes to the RoundImplementation contract include:
 - The interface should provide clear documentation and guidelines on how to define and integrate custom voting and payout strategies within the voting strategy implementation.
 
 ## Reference Implementation
-wip
-<!--
-This section is optional.
-
-The Reference Implementation section should include a minimal implementation
-that assists in understanding or implementing this specification. It should
-not include project build files. The reference implementation is not
-a replacement for the Specification section, and the proposal should still be
-understandable without it. If the reference implementation is too large to
-reasonably be included inline, then consider adding it as one or more files in
-`../assets/aip-####/`. External links will not be allowed.
-
-TODO: Remove this comment before submitting
--->
+You can find the reference implementation for this proposal in the following PR: [Leaner round implementation #48](https://github.com/allo-protocol/allo-contracts/pull/48)
 
 ## Rationale
 
 By removing features tied to quadratic voting, such as `matchAmount`, `payoutStrategy`, and associated functions and variables, the `RoundImplementation` contract becomes more flexible. This allows for the creation of rounds without matching requirements, enabling a wider range of funding scenarios. Integrating the payout strategy into the voting strategy simplifies the round contract and eliminates unnecessary complexity. The proposed changes aim to create a cleaner and more flexible contract interface while preserving the core functionality of RoundImplementation.
 
 ## References
-wip
-<!--
-This section is optional. 
 
-If applicable, provide a list of any relevant sources and citations used
-elsewhere in this AIP:
-
-    A list of relevant links like for this proposal
-
-    - [forum discussion](discordlink)
-    - [tests](githublink)
-    - [proposalCode](githublink)
-
-TODO: Remove this comment before submitting
--->
+- Problem: https://github.com/orgs/allo-protocol/discussions/11
+- AIP Discussion: https://github.com/orgs/allo-protocol/discussions/22
+- PR: https://github.com/allo-protocol/allo-contracts/pull/48
 
 ## Copyright
 
-Copyright and related rights waived via [CC0](../LICENSE.md).
+Copyright and related rights found in [LICENSE](./LICENSE).
