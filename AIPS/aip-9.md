@@ -3,7 +3,7 @@ aip: 9
 title: Adding the Foundry testing suite to the repo
 status: Draft
 type: Core
-author: @codenamejason <jason@gitcoin.co>
+author: Jason Romero <jason@gitcoin.co>
 created: 2023-05-25
 ---
 
