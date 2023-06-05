@@ -1,10 +1,12 @@
+---
 aip: 11
 title: Changes to Registry, RoundFactory, and AlloSettings Contracts
-status: In Review
+status: Final
 type: Core
 author: Aditya Anand <aditya@gitcoin.co>, Kurt Merbeth <kurt@gitcoin.co>
-
 created: 2023-05-30
+---
+
 
 ## Abstract
 
