@@ -101,8 +101,9 @@ We can use 2 bits for each application status to express 4 different values:
 * 2 - rejected
 * 3 - canceled
 
-### Proof of concepts and possible implementations:
+### References
 
+- PR: https://github.com/allo-protocol/allo-contracts/pull/5
 - https://gist.github.com/gravityblast/9c286a8e83e0023621581d7e45fded65
 - https://github.com/KurtMerbeth/BitMapMagic/blob/master/RoundBitMap/contracts/Round.sol
 
@@ -115,5 +116,5 @@ These changes will enable round operators to approve or reject multiple applicat
 regardless of the number of applications involved.
 
 ## Copyright
-TODO
 
+Copyright and related rights found in [LICENSE](./LICENSE).

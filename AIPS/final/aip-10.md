@@ -54,7 +54,7 @@ The addition of the 'virtual' keyword to the `init()` method in the payout and v
 
 ## References
 
-There are no additional references for this AIP.
+- PR: https://github.com/allo-protocol/allo-contracts/pull/42
 
 ## Copyright
 

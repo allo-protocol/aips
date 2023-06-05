@@ -87,9 +87,14 @@ We have explored few possibilities on how AlloSettings could be implemented
 While eternal storage seems to be the smartest way to go about it, it does affect readability and for the sake of simplicity 
 we are proposing going with a naive approach and then upgrade as we see fit
 
+## References
+https://github.com/allo-protocol/contracts/pull/2
+
 ## Rationale
 
 Overall, the proposed modifications aim to produce a global settings file which can be used to store global variables like approved voting strategies / payout strategies / anything which the DAO might be be able to vote on take a decision.
 By storing this data in an isolated contract, we avoid polluting the factory contracts 
 
-Here is a POC of the proposed changes: https://github.com/allo-protocol/contracts/pull/2
+## Copyright
+
+Copyright and related rights found in [LICENSE](./LICENSE).

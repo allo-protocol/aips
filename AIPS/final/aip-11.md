@@ -130,7 +130,7 @@ The changes also enhance the interoperability of the contracts by introducing in
 
 ## References
 
-There are no additional references for this AIP.
+- PR: https://github.com/allo-protocol/allo-contracts/pull/44
 
 ## Copyright
 
