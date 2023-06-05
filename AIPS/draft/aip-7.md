@@ -82,9 +82,11 @@ Current [GitHub Discussion](https://github.com/orgs/allo-protocol/discussions/21
 
 ## References
 
-1. In computer programming, a naming convention is a set of rules for choosing the character sequence to be used for identifiers which denote variables, types, functions, and other entities in source code and documentation. The use of naming conventions can reduce the effort needed to read and understand source code, enable code reviews to focus on more significant issues than syntax and naming standards, and help formalize expectations and promote consistency within a development team, among other benefits [1](https://en.wikipedia.org/wiki/Naming_convention_(programming)).
+Active [Pull Request](https://github.com/allo-protocol/aips/pull/35)
 
-2. As for the best practices in naming conventions for smart contracts, they follow the general principles of programming and document naming conventions. The aim is to have names that enhance readability, provide meaningful information, and promote consistency within a development team. This includes using clear and descriptive identifiers, adhering to specific length rules, and adopting standardized abbreviations when necessary.
+In computer programming, a naming convention is a set of rules for choosing the character sequence to be used for identifiers which denote variables, types, functions, and other entities in source code and documentation. The use of naming conventions can reduce the effort needed to read and understand source code, enable code reviews to focus on more significant issues than syntax and naming standards, and help formalize expectations and promote consistency within a development team, among other benefits [1](https://en.wikipedia.org/wiki/Naming_convention_(programming)).
+
+As for the best practices in naming conventions for smart contracts, they follow the general principles of programming and document naming conventions. The aim is to have names that enhance readability, provide meaningful information, and promote consistency within a development team. This includes using clear and descriptive identifiers, adhering to specific length rules, and adopting standardized abbreviations when necessary.
 
 ## Copyright
 
