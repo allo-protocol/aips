@@ -1,7 +1,7 @@
 ---
 aip: AIP-10
 title: Add 'virtual' keyword to init() method in payout and voting strategy interfaces
-status: Draft
+status: Final
 type: Core
 author: Zakk Fleischmann <zakk@gitcoin.co>, Aditya Anand <aditya@gitcoin.co>
 created: 2023-05-26

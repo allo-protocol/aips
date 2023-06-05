@@ -1,7 +1,7 @@
 ---
 aip: 5
 title: Match Votes and msg.value
-status: Draft
+status: Final
 type: Core
 author: Kurt Merbeth <kurt@gitcoin.co>
 created: 2023-04-06

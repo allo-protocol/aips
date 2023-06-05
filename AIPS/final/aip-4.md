@@ -1,7 +1,7 @@
 ---
 aip: 4
 title: Emit ApplicationIndex on Vote
-status: Draft
+status: Final
 type: Core
 author: Aditya Anand <aditya@gitcoin.co>, Andrea Franz <andrea@gitcoin.co>, Jason Romero <jason@gitcoin.co>, Mo Boudra <mo@gitcoin.co>
 created: 2023-04-06

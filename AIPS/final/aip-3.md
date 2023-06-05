@@ -1,7 +1,7 @@
 ---
 aip: 3
 title: Allo Settings Contract
-status: Draft
+status: Final
 type: Core
 author: Aditya Anand <aditya@gitcoin.co>, Andrea Franz <andrea@gitcoin.co>, Kurt Merbeth <kurt@gitcoin.co>
 created: 2023-03-15

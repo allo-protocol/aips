@@ -1,7 +1,7 @@
 ---
 aip: 8
 title: RoundImplementation: Decoupling features
-status: Draft
+status: Final
 type: Core
 author: Kurt Merbeth <kurt@gitcoin.co>, Aditya Anand <aditya@gitcoin.co>
 created: 2023-05-25

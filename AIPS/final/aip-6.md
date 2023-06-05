@@ -1,7 +1,7 @@
 ---
 aip: 6
 title: Using Multicall to Update All Round Data
-status: Draft
+status: Final
 type: Core
 author: Gitcoin Grants Stack
 created: 2023-05-04

@@ -1,7 +1,7 @@
 ---
 aip: 7
 title: Repository renaming for contracts and contract renaming
-status: Idea
+status: Draft
 type: Core
 author: Jason Romero <jason@gitcoin.co>
 created: 2023-05-22
