@@ -91,7 +91,31 @@ past the Draft stage.
 
 The following is the standardization process for all AIPs in all tracks:
 
-![AIP Status Diagram](../assets/aip-1/AIP-process-update.jpg)
+```mermaid
+graph TD
+  subgraph AIP Lifecycle
+    Idea("Idea")
+    Draft("Draft")
+    Review("Review")
+    InDevelopment("In Development")
+    Final("Final")
+    Stagnant("Stagnant")
+    Withdrawn("Withdrawn")
+    Living("Living")
+  end
+  
+  Idea --> Draft
+  Draft --> Review
+  Review --> InDevelopment
+  InDevelopment --> Final
+  InDevelopment --> Stagnant
+  Draft --> Stagnant
+  Review --> Stagnant
+  Review --> Living
+  Stagnant --> Draft
+  Stagnant --> Review
+  Stagnant --> Withdrawn
+```
 
 **Idea** - An idea that is pre-draft. This is not tracked within the AIP Repository.
 
@@ -100,12 +124,7 @@ merged by an AIP Editor into the AIP repository when properly formatted.
 
 **Review** - An AIP Author marks an AIP as ready for and requesting Peer Review.
 
-**Last Call** - This is the final review window for an AIP before moving to
-`Final`. An AIP editor will assign `Last Call` status and set a review end date
-(`last-call-deadline`), typically 14 days later.
-
-If this period results in necessary normative changes it will revert the AIP to
-`Review`.
+**In Development** - In the lifecycle of an AIP, the stage of "In Development" represents a significant milestone indicating that an AIP has undergone the initial review process and is actively being worked on by its authors and contributors. After an AIP has been marked as ready for review by the AIP Author, it enters the "In Development" state.
 
 **Final** - This AIP represents the final standard. A Final AIP exists in
 a state of finality and should only be updated to correct errata and add
