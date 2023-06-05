@@ -54,8 +54,16 @@ const tx = await roundImplementation.multicall([
 ]);
 ```
 
+## References
+
+- PR: https://github.com/allo-protocol/allo-contracts/pull/29
+
 ## Rationale
 
 The `multicall` function is a powerful tool that enables us to execute multiple function calls in a single transaction. By using `multicall` to update all Round data, we can simplify and optimize the process, reducing the number of function calls required and saving time and gas costs. Additionally, the use of `MulticallUpgradeable` library from OpenZeppelin ensures the function is secure and reliable.
 
 OpenZeppelin's `MulticallUpgradeable` library is a collection of functions that allows us to execute multiple calls in a single transaction, saving gas costs and improving efficiency. The library also handles the return values of each call, making it easier to process and interpret the results.
+
+## Copyright
+
+Copyright and related rights found in [LICENSE](./LICENSE).

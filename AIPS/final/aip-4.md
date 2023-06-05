@@ -77,6 +77,10 @@ function vote(bytes[] calldata encodedVotes, address voterAddress) external over
       ));
 ```
 
-## Rationale
+## References
 
-Here is the link to the proposed changes: https://github.com/allo-protocol/contracts/pull/12
+- PR: https://github.com/allo-protocol/contracts/pull/12
+
+## Copyright
+
+Copyright and related rights found in [LICENSE](./LICENSE).

@@ -56,9 +56,17 @@ If `msgValue` does not equal `msg.value`, revert the transaction.
 require(msgValue == msg.value, "msg.value does not match vote amount");
 ```
 
+## References
+
+- PR: https://github.com/allo-protocol/allo-contracts/pull/13
+
 
 ## Rationale
 
 The proposed modification adds an additional validation step to the vote function, which ensures that the `msg.value` sent in the vote function matches the total amount specified in the `encodedVotes`. This modification prevents users from losing their surplus native tokens and grant addresses from receiving less than what they sent. Additionally, this modification prevents malicious users from exploiting the contract to steal native tokens.
 
 In conclusion, we believe that the proposed modification will significantly improve the security of the `QuadraticFundingVotingStrategyImplementation` contract and prevent potential security vulnerabilities.
+
+## Copyright
+
+Copyright and related rights found in [LICENSE](./LICENSE).
