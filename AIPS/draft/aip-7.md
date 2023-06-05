@@ -60,13 +60,27 @@ By introducing a structured methodology for renaming, we aim to mitigate these i
 
 The proposed approach is not about enforcing rigid standards or making sweeping changes overnight. Instead, it's about introducing a more organized, consistent, and thoughtful way of handling repository and contract naming and renaming—one that respects ongoing projects and dependencies, supports creativity and flexibility, and evolves with the needs of the Allo community.
 
-## Implementation
+## Implementation [WIP]
 
->todo: add implementation details
+Current [GitHub Discussion](https://github.com/orgs/allo-protocol/discussions/21)
+
+#### Contract Renaming
+
+    ProjectRegistry.sol -> Registry.sol
+    VotingStrategy.sol -> AllocationStrategy.sol
+    PayoutStrategy.sol -> DistributionStrategy.sol
+    
+    * Additional variable renaming TBD based on the above changes.
+    ex: vote() -> allocate()
+
+>Also note that the way we impliment the payout or allocation strategies is still under discussion. We may want to create a development process that is community driven and allows for multiple strategies to be developed and tested. This would allow for the community to decide which strategy is best for them and their use case.
+  
+#### Repository Renaming
+
+    allo-contracts -> contracts
+
 
 ## References
-
-Here are some references that highlight the importance of consistent naming conventions:
 
 1. In computer programming, a naming convention is a set of rules for choosing the character sequence to be used for identifiers which denote variables, types, functions, and other entities in source code and documentation. The use of naming conventions can reduce the effort needed to read and understand source code, enable code reviews to focus on more significant issues than syntax and naming standards, and help formalize expectations and promote consistency within a development team, among other benefits [1](https://en.wikipedia.org/wiki/Naming_convention_(programming)).
 
