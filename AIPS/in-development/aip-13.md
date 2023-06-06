@@ -1,4 +1,3 @@
-
 ---
 aip: 13
 title: Enhancing Vote Traceability
