@@ -48,3 +48,9 @@ The proposed change will improve the traceability within the voting system for b
 ## Implications
 
 The implementation of this proposal will significantly enhance the traceability of our voting system. However, caution must be exercised when dealing with `tx.origin`, given potential security vulnerabilities. It's recommended that `tx.origin` is used strictly for auditing and tracking, not for security-critical operations.
+
+## References
+- PR: https://github.com/allo-protocol/allo-contracts/pull/55
+
+## Copyright
+Copyright and related rights found in [LICENSE](./LICENSE).
